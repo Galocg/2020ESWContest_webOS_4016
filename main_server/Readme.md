@@ -2,7 +2,7 @@
 메인 서버는 카디바이스, 홈디바이스, 머신러닝 서버 간 데이터 교환이 가능하도록 합니다.
 
 # 흐름도
-
+![flow](https://user-images.githubusercontent.com/57391270/95714966-04d26800-0ca4-11eb-9038-fcfaec51e058.jpg)
 
 
 ## 카디바이스
