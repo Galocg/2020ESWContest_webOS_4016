@@ -1,0 +1,25 @@
+@import '~@jikjoo/moonstone/styles/colors.less';
+
+
+.icon {
+    vertical-align: middle;
+    margin        : auto;
+
+    &.icon-warning {
+        color: @moon-video-player-redicon-text-color;
+    }
+}
+
+div.switch.moonstone {
+    &[class*=selected] {
+        background-color: @moon-accent;
+    }
+
+    div.moonstone.highContrast {
+        color: @moon-gray;
+    }
+}
+
+.spottable:focus .switch.moonstone[class*=selected] div.moonstone {
+    color: @moon-accent;
+}

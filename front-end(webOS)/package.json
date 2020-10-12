@@ -1,0 +1,62 @@
+{
+	"name": "bangul_webos",
+	"version": "1.0.0",
+	"description": "차량용 스마트 펫케어 : 방울이가 타고있어요",
+	"author": "",
+	"main": "src/index.js",
+	"homepage": "./",
+	"scripts": {
+		"start": "enact serve",
+		"serve": "enact serve",
+		"pack": "enact pack",
+		"pack-p": "enact pack -p",
+		"watch": "enact pack --watch",
+		"clean": "enact clean",
+		"lint": "enact lint .",
+		"license": "enact license",
+		"test": "enact test",
+		"test-watch": "enact test --watch",
+		"install-webos": "enact pack && ares-package dist && ares-install com.bangul.app.webos_1.0.0_all.ipk -d webos",
+		"install-emul": "enact pack && ares-package dist && ares-install com.bangul.app.webos_1.0.0_all.ipk -d emulator"
+	},
+	"license": "UNLICENSED",
+	"private": true,
+	"repository": "https://github.com/jikjoo/Bangul_webOS",
+	"enact": {
+		"theme": "moonstone"
+	},
+	"eslintConfig": {
+		"extends": "enact/strict"
+	},
+	"eslintIgnore": [
+		"node_modules/*",
+		"build/*",
+		"dist/*"
+	],
+	"dependencies": {
+		"@enact/core": "^3.2.5",
+		"@enact/i18n": "^3.2.5",
+		"@enact/spotlight": "^3.2.5",
+		"@enact/ui": "^3.2.5",
+		"@enact/webos": "^3.2.5",
+		"@jikjoo/moonstone": "^3.2.53",
+		"axios": "^0.19.2",
+		"deferred": "^0.7.11",
+		"ilib": "^14.2.0",
+		"prop-types": "^15.6.2",
+		"react": "^16.13.1",
+		"react-dom": "^16.13.1",
+		"react-icons": "^3.10.0",
+		"react-redux": "^7.2.0",
+		"react-router-dom": "^5.2.0",
+		"redux": "^4.0.5",
+		"redux-thunk": "^2.3.0",
+		"simple-peer": "^9.7.2",
+		"socket.io-client": "^2.3.0",
+		"webrtc-adapter": "^7.7.0",
+		"websocket-as-promised": "^1.0.1"
+	},
+	"devDependencies": {
+		"redux-devtools-extension": "^2.13.8"
+	}
+}
