@@ -1,4 +1,4 @@
-# 메인서버 ( Node.js express framework )
+# 메인서버 ( Node.js express framework, 서버파일 : server.js )
 메인 서버는 카디바이스, 홈디바이스, 머신러닝 서버 간 데이터 교환이 가능하도록 합니다.
 
 # 흐름도
