@@ -21,14 +21,7 @@ python36 -m pip install --user --upgrade pip
 4. https://blog.insightdatascience.com/how-to-train-your-own-yolov3-detector-from-scratch-224d10e55de2
    - 이후부터는 위 블로그대로 이미지 셋 생성후 동일하게 코드 실행
    - 아래는 트레이닝 중인 화면 캡처
-   - ![image-20200808195219136](https://dogvomit.s3.ap-northeast-2.amazonaws.com/github_related/process_1.PNG)
-
-## 앞으로 해야될 것
-
-- 이미지 라벨링 잘하는 법 찾기
-- 안좋은 샘플 사진과 좋은 샘플 사진 구별하는 방법 알아보기
-
-  
+   - ![image-20200808195219136](https://dogvomit.s3.ap-northeast-2.amazonaws.com/github_related/process_1.PNG)  
 
 ## 주의사항
 
